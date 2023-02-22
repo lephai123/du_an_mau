@@ -1,0 +1,647 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 980px;
+    margin: 0px auto;
+}
+header .admin{
+    background-color: rgb(228, 228, 228);
+    border: 1px solid #ccc;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+header .admin h1{
+    padding: 8.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(85, 85, 85);
+}
+nav{
+   height: 40px; 
+   margin-top: 20px;
+   background-color: rgb(27, 27, 27);
+   border-radius: 5px;
+}
+nav ul{
+    margin-left: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #ffffff;
+    line-height: 40px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul .icon_gio_hang {
+    float: right;
+    margin-top: 5px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+nav ul .icon_gio_hang a img{
+    width: 25px;
+    height: 25px;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+article{
+    width: 100%;
+}
+article .text_h3{
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+article .text_h3 h3{
+    font-size: 15px;
+    padding: 6px;
+    color: rgb(119, 119, 119);
+}
+article .article_h3{
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+article .article_h3 h3{
+    font-size: 15px;
+    padding: 6px;
+    color: rgb(119, 119, 119);
+}
+article .article_chung .article_chi_tiet{
+    margin-top: 20px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #ccc;
+}
+article .article_chung .article_chi_tiet .article_product{
+    padding: 20px;
+}
+article .article_chung .article_chi_tiet .article_product label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article .article_chung .article_chi_tiet .article_product .dang_ky{
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+article .article_chung .article_chi_tiet .article_product .submit_dangky{
+    padding: 5px 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+article .article_chung .article_chi_tiet .article_product .submit_dangky:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+article .row{
+    margin-top: 10px;
+}
+article .row label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+article .row input,article .row textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+article .row_click{
+    margin-top: 13px;
+}
+article .row_click input{
+    padding: 3px 3px;
+}
+article .row_click input:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+article .table_danhmuc .form_1{
+    margin-top: 15px;
+}
+article .table_danhmuc table, article .table_danhmuc td, article .table_danhmuc tr,article .table_danhmuc th{
+    border-collapse: collapse;
+}
+article .table_danhmuc table{
+    margin: 20px auto;
+    width: 100%;
+}
+article .table_danhmuc table .color_dm th{
+    background-color: rgb(218, 218, 218);
+    border-top: rgb(218, 218, 218);
+    border-right: rgb(218, 218, 218);
+    border-left: rgb(218, 218, 218);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: rgb(51, 51, 51);
+    padding: 10px 5px;
+}
+article .table_danhmuc table tr td{
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+article .table_danhmuc table tr td input{
+    padding: 5px 10px;  
+}
+article .list_button input{
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+article .list_button input:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+article .list_button,article .row_click{
+    margin-bottom: 30px;
+}
+article .home{
+    max-width: 100%;
+}
+.home article{
+    width: 74%;
+    float: left;
+}
+.home article .banner_animation img{
+    width: 100%;
+}
+.home article .banner_animation{
+    text-align: center;
+}
+.home article .product_trang_chu{
+    margin-top: 30px;
+    width: 100%;
+}
+.home article .product_trang_chu .khung_product{
+    padding: 10px 10px;
+}
+.home article .product_trang_chu .product{
+    float: left;
+    width: 30.333%;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.home article .product_trang_chu .product .product_text a{
+    text-decoration: none;
+    color: #000;
+}
+.home article .product_trang_chu .product .product_text a:hover{
+    color: red;
+}
+.home article .product_trang_chu .product .product_img img{
+    width: 100%;
+}
+.home aside{
+    width: 23%;
+    float: right;
+}
+.home aside .dangnhap_trang_chu,.danhmuc_trang_chu,.top10_trang_chu{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.home aside .dangnhap_trang_chu .title_taikhoan_trangchu h2,.danhmuc_trang_chu .title_danhmuc_trangchu h2,.top10_trang_chu .title_top10_trangchu h2{
+    font-size: 17px;
+    width: 100%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(130, 130, 130);
+}
+.home aside .dangnhap_trang_chu form{
+    padding: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home aside .dangnhap_trang_chu form .form_trang_chu{
+    padding-bottom: 7px;
+}
+.home aside .dangnhap_trang_chu form .form_dn{
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+}
+.home aside .dangnhap_trang_chu form .sumbit_trangchu{
+    padding: 5px 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.home aside .dangnhap_trang_chu form .sumbit_trangchu:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.home aside .dangnhap_trang_chu li{
+    margin-left: 15px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.home aside .dangnhap_trang_chu li a{
+    text-decoration: none;
+    color: rgb(0, 212, 212);
+}
+.home aside .dangnhap_trang_chu li a:hover{
+    color: blue;
+}
+ .danhmuc_trang_chu ul li{
+    list-style: none;
+    height: 35px;
+    background-color: #fff;
+}
+ .danhmuc_trang_chu ul li a{
+    text-decoration: none;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .danhmuc_trang_chu ul li a:hover{
+    color: blue;
+}
+ .danhmuc_trang_chu ul li{
+    border-bottom: 1px solid #ccc;
+}
+.danhmuc_trang_chu .danhmuc_search form{
+   text-align: center;
+    padding: 5px;
+    background-color: rgb(217, 217, 217);
+}
+.danhmuc_trang_chu .danhmuc_search form .sear_danhmuc{
+    outline: none;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 2px;
+    height: 22px;
+}
+.danhmuc_trang_chu .danhmuc_search form .submit_danhmuc{
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 2px;
+    height: 22px;
+}
+.danhmuc_trang_chu .danhmuc_search form .submit_danhmuc:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.danhmuc_trang_chu .list_danh_muc .binh_luan{
+    margin-left: 20px;
+    margin: 10px;
+    width: 97.3%;
+    border-collapse: collapse;
+}
+.danhmuc_trang_chu .list_danh_muc .binh_luan td,.danhmuc_trang_chu .list_danh_muc .binh_luan tr{
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.home aside .top10_trang_chu .list_top10_trangchu .product_top10{
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+.home aside .top10_trang_chu .list_top10_trangchu .product_top10 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+.home aside .top10_trang_chu .list_top10_trangchu .product_top10 .the_a{
+    float: left;
+    margin-top: -5px;
+}
+.home aside .top10_trang_chu .list_top10_trangchu .product_top10 a{
+    text-decoration: none;  
+    margin-right: 3px;
+    float: left;
+    color: #000;
+}
+.home aside .top10_trang_chu .list_top10_trangchu .product_top10 a:hover{
+    color: blue;
+}
+.home aside .top10_trang_chu .list_top10_trangchu{
+    padding: 10px;
+}
+/*Hàng hóa chi tiết*/
+.home article .hang_hoa_chi_tiet{
+    margin-top: 20px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text .anh_chi_tiet_hang_hoa{
+    text-align: center;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text .anh_chi_tiet_hang_hoa img{
+    width: 300px;
+    height: 300px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text .mo_ta_hang_hoa{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_h3{
+    background-color: rgb(217, 217, 217);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text .hang_hoa_cung_loai{
+    padding: 15px;
+}
+
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text .hang_hoa_cung_loai li a{
+    text-decoration: none;
+    color: #000;
+} 
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text .hang_hoa_cung_loai li a:hover{
+    color: blue;
+}
+/*Danh mục hàng hóa*/
+.home article .hang_hoa_danhmuc{
+    margin-top: 20px;
+}
+.home article .hang_hoa_danhmuc .row_danhmuc .home_danhmuc_h3{
+    background-color: rgb(217, 217, 217);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
+.home article .home_danhmuc{
+    margin-top: 30px;
+    width: 106.7%;
+}
+.home article .home_danhmuc .khung_product{
+    padding: 10px 10px;
+}
+.home article .home_danhmuc .product{
+    float: left;
+    width: 30.333%;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.home article .home_danhmuc .product .product_text a{
+    text-decoration: none;
+    color: #000;
+}
+.home article .home_danhmuc .product .product_text a:hover{
+    color: red;
+}
+.home article .home_danhmuc .product .product_img img{
+    width: 100%;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gio_hang{
+    padding: 15px 15px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gio_hang table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gio_hang table{
+    text-align: center;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gio_hang table .submit_them_gio_hang input{
+    padding: 7px 7px;
+    border-radius: 3px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gio_hang table .submit_them_gio_hang input:hover{
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gio_hang table .thanh_mau_gio_hang{
+    background: rgb(217, 217, 217);
+    color: rgb(130, 130, 130);
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .thong_tin_dat_hang{
+    padding: 15px 15px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .thong_tin_dat_hang input{
+    width: 100%;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .phuong_thuc_thanh_toan{
+    padding: 10px 10px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .phuong_thuc_thanh_toan input,.home article .hang_hoa_chi_tiet .row_chi_tiet .phuong_thuc_thanh_toan h5{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .phuong_thuc_thanh_toan input{
+    margin-right: 5px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .phuong_thuc_thanh_toan h5{
+    margin-right: 20px;
+    margin-top: -3px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .ds_gio_hang{
+    padding: 10px 10px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .ds_gio_hang table{
+    width: 100%;
+    text-align: center;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .ds_gio_hang table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text table .thanh_mau_gio_hang{
+    background: rgb(217, 217, 217);
+    color: rgb(130, 130, 130);
+}
+/*Hoa_don*/
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_hoa_don h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_ma_don h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Thêm giỏ hàng*/
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text .form_ct{
+    text-align: center;
+}
+.them_gio_hang{
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+    color: #000;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: rgb(214, 214, 214);
+}
+.them_gio_hang:hover{
+    border-radius: 3px;
+    color: #000;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+/*Thông tin đặt hàng*/
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_a table{
+    padding: 10px 10px;
+    width: 50%;
+    font-weight: bold;
+}
+footer{
+    margin-top: 25px;
+    width: 100%;
+    background-color: #ccc;
+    height: 50px;
+}
+footer h1{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    text-align: center;
+}
+/*Giới thiệu*/
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gioi_thieu{
+    padding: 15px 15px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gioi_thieu h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gioi_thieu div{
+    text-align: center;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gioi_thieu p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.home article .hang_hoa_chi_tiet .row_chi_tiet .home_text_gioi_thieu h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.clear{
+    clear: both;
+}
+/*Slide_show*/
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
